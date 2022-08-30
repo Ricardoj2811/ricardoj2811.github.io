@@ -1,3 +1,41 @@
+
+
 body{
-    background-color: aqua;
+    background-color: rgb(231, 201, 136);
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+li a{
+    border: 1px solid black;
+    padding:15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color:burlywood;
+}
+
+.contenidos{
+    padding-left: 15px;
+}
+
+.active{
+    border: 2px solid darkgrey;
 }
